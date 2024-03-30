@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags="@Scenario1",snippets=SnippetType.CAMELCASE,dryRun=false,publish=true,monochrome=true,stepNotifications=true,plugin= {"pretty","json:target\\contactUs.json"},features="src\\test\\resources",glue="com.eaias.stepdefinition")
+@CucumberOptions(tags="@ContactUsFeature",snippets=SnippetType.CAMELCASE,dryRun=false,publish=true,monochrome=true,stepNotifications=true,plugin= {"pretty","json:target\\contactUs.json"},features="src\\test\\resources",glue="com.eaias.stepdefinition")
 
 
 public class TestRunner extends CuEAIASBaseClass{
